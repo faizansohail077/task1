@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="204" viewBox="0 0 204 204">
+  <defs>
+    <filter id="Ellipse_1_copy_2" x="0" y="0" width="204" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.169"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.917" x2="0.083" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb087f"/>
+      <stop offset="0.521" stop-color="#544cf9"/>
+      <stop offset="0.693" stop-color="#5878f6"/>
+      <stop offset="1" stop-color="#5ca4f2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_48" data-name="Group 48" transform="translate(-1156 -909.6)">
+    <g transform="matrix(1, 0, 0, 1, 1156, 909.6)" filter="url(#Ellipse_1_copy_2)">
+      <circle id="Ellipse_1_copy_2-2" data-name="Ellipse 1 copy 2" cx="42" cy="42" r="42" transform="translate(60 55)" fill="#fff"/>
+    </g>
+    <path id="unread_mail" data-name="unread mail" d="M1272.786,992.6h-29.572a3.25,3.25,0,0,0-2.118.789.639.639,0,0,0-.1.068c-.011.01-.015.025-.025.036a3.05,3.05,0,0,0-.967,2.219v21.777a3.168,3.168,0,0,0,3.214,3.112h29.572a3.168,3.168,0,0,0,3.214-3.112V995.713A3.168,3.168,0,0,0,1272.786,992.6Zm-29.572,1.245h29.572a1.973,1.973,0,0,1,.738.143l-15.537,15.039L1242.457,994A1.968,1.968,0,0,1,1243.214,993.846Zm-1.929,23.644V995.713a1.8,1.8,0,0,1,.231-.867l12.025,11.639-12.108,11.719A1.8,1.8,0,0,1,1241.286,1017.49Zm31.5,1.867h-29.572a1.954,1.954,0,0,1-.913-.233l12.15-11.759,2.907,2.814c.01.01.025.013.037.023a.634.634,0,0,0,1.215-.02s0,0,.005,0l2.907-2.814,12.159,11.768A1.955,1.955,0,0,1,1272.786,1019.357Zm1.928-1.867a1.8,1.8,0,0,1-.156.732l-12.127-11.738,12.042-11.656a1.8,1.8,0,0,1,.24.884Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

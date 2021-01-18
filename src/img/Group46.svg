@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="204" viewBox="0 0 204 204">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="204" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.169"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="1" y1="0.048" x2="0" y2="0.952" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb087f"/>
+      <stop offset="0.521" stop-color="#544cf9"/>
+      <stop offset="0.693" stop-color="#5878f6"/>
+      <stop offset="1" stop-color="#5ca4f2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_46" data-name="Group 46" transform="translate(-344 -909.6)">
+    <g transform="matrix(1, 0, 0, 1, 344, 909.6)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="42" cy="42" r="42" transform="translate(60 55)" fill="#fff"/>
+    </g>
+    <path id="phone" d="M438.583,1012.725c-3.827-3.951-6.3-7.344-7.574-10.377-1.71-4.081-1.254-7.568,1.354-10.371a1.077,1.077,0,0,1,.563-.62.356.356,0,0,0,.092-.058l2.023-2.09a2.155,2.155,0,0,1,3.037,0l4.555,4.7a2.269,2.269,0,0,1,0,3.135l-2.025,2.091a2.271,2.271,0,0,0,0,3.135l8.1,8.361a2.157,2.157,0,0,0,3.037,0l2.025-2.091a2.153,2.153,0,0,1,3.037,0l4.555,4.7a2.272,2.272,0,0,1,0,3.136l-2.024,2.091a.365.365,0,0,0-.056.094,1.072,1.072,0,0,1-.6.581,7.818,7.818,0,0,1-5.639,2.443C449.034,1021.591,444.442,1018.774,438.583,1012.725Zm-5.061-19.858c-2.314,2.39-2.706,5.3-1.2,8.895,1.2,2.857,3.577,6.1,7.273,9.918,5.5,5.675,9.893,8.434,13.442,8.434a6.426,6.426,0,0,0,4.778-2.163l-5.618-5.8a3.505,3.505,0,0,1-4.5-.47l-8.1-8.361a3.8,3.8,0,0,1-.457-4.651l-5.617-5.8Zm25.306,24.039,1.518-1.569a.757.757,0,0,0,0-1.045l-4.555-4.7a.723.723,0,0,0-1.012,0l-1.519,1.568ZM440.1,997.57,441.62,996a.762.762,0,0,0,0-1.046l-4.556-4.7a.721.721,0,0,0-1.012,0l-1.519,1.568Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
