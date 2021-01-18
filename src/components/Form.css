@@ -1,0 +1,54 @@
+.form{
+    background-color: purple;
+}
+.form__image{
+    background-image: url('../img/Layer 58.png');
+    height: 360px;
+    z-index: -1; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.Form{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.form__Text{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.form__left{
+    /* flex: 1; */
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    
+    /* margin-left: 396px; */
+}
+.form__left> input{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.form__right{   
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.form__right>input{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color: black ;
+    padding: 15px;
+    border-radius:none;
+    width: 150px;
+    color: white;
+    margin-left: 790px;
+    margin-bottom: 10px;
+}

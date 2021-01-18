@@ -5,6 +5,7 @@
 }
 .header{
     background-color: white;
+   
 }
 .logo {
 	width: 100px;
@@ -21,7 +22,7 @@ li {
 nav {
     display: flex;
     justify-content: space-around;
-    min-height:15vh ;
+    min-height:10vh ;
     align-items: center;
 }
 .btn{

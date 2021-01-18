@@ -1,0 +1,8 @@
+.Testimonials{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team3{
+    display: flex;
+    margin-right:10px ;
+}

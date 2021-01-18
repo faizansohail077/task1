@@ -1,0 +1,13 @@
+.mentors{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mentors__heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mentors__img{
+    width: 150px;
+    
+}
