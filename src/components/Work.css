@@ -3,7 +3,8 @@
 	justify-content: space-evenly;
 }
 .pic {
-	width: 412px;
+    margin-top: 20px;
+    width: 650px;
 	height: 730px;
 	margin-left: 80px;
 }
