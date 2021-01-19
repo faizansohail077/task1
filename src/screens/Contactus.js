@@ -1,11 +1,14 @@
 import React from 'react'
+import Help from '../components/Help'
+import NavbarContact from '../components/NavbarContact'
 
-const Contactus = () => {
+const Contact = () => {
     return (
         <div>
-            contact us
+            <NavbarContact />
+            <Help />
         </div>
     )
 }
 
-export default Contactus
+export default Contact

@@ -9,10 +9,20 @@
     background-size: contain;
     width: 100%;
 }
+.navbar__text{
+    word-wrap: none;
+    max-height: 200px;
+    max-width: 200px;
+    background-color: grey;
+    margin:20px ;
+    padding-left: 20px;
+}
 
 .navbar__text > p {
     margin: 10px;
+   
 }
+
 .btn{
     background-color: purple;
     padding: 15px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import Aboutus from '../screens/Aboutus';
-import Contactus from '../screens/Contactus';
+import Contact from '../screens/Contactus';
 import Courses from '../screens/Courses';
 import Home from '../screens/Home';
 import Resource from '../screens/Resource';
@@ -25,7 +25,7 @@ const Links = () => {
                     <Route path='/contact' exact>
                         <Header />
                         <main>
-                        <Contactus />
+                        <Contact />
                         </main>
                         <Footer/>
                     </Route>

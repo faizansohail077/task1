@@ -26,7 +26,7 @@ const Work = () => {
                     
                 </div>
             <div className="worklist__text">
-                <p>
+                <p className="text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
             </div>

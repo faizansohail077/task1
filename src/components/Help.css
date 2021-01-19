@@ -1,0 +1,72 @@
+.help {
+	/* height: 517px; */
+	width: 100%;
+}
+.help__heading {
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 60px;
+	word-wrap: break-word;
+	width: 700px;
+	margin-left: 300px;
+}
+.help__heading > h2 {
+	font-weight: bold;
+}
+.help__logo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.help__logoPic {
+	display: flex;
+	align-items: center;
+}
+
+.contact__img {
+	background-image: url('../img/map.png');
+	height: 600px;
+	width: 100%;
+}
+.contant__text {
+	text-align: center;
+
+	word-wrap: break-word;
+	width: 700px;
+	margin-left: 300px;
+}
+.form__input {
+	display: flex;
+	justify-content: space-around;
+}
+.form__input > input {
+    width: 350px;
+	display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	/* background-color: #f8f8f8; */
+}
+.input__field {
+    margin-top: 12px;
+    width: 90%;
+    margin-left: 45px;
+	height: 150px;
+	padding: 12px 20px;
+	 box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	/* background-color: #f8f8f8; */
+	resize: none; 
+}
+form{
+    align-items: center;
+}
+.Form {
+	display: flex;
+}
+.btn1{
+background-color: purple !important;    
+border-radius: 20px;
+}
