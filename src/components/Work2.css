@@ -1,0 +1,25 @@
+.work2{
+    height: 200px;
+    background-color: #FEF3E5;
+    display: flex;
+    align-items: center;
+}
+.work__input{
+    margin-left: 20px;
+    border: 1px solid black;
+    
+}
+.work__input > input {
+    border: none;
+    height: 40px;
+    background: none;
+}
+.work__list > p{
+    justify-content: space-evenly;
+    width: 100px;
+}
+.int{
+    border: 1px solid black;
+    height: 40px;
+    background: none;
+}

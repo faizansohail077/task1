@@ -1,0 +1,24 @@
+.courses > img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.courses{
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+}
+.courses > span{
+    font-size: 10px;
+}
+.courses > h5{
+   color: #803B74;
+}
+.courses > p {
+    opacity: 0.3;
+}
+.course {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+}
