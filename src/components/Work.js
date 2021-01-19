@@ -11,7 +11,7 @@ const Work = () => {
                 </div>
                 <div>
                     <h1>How it works</h1>
-                    <p className="text">hellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakbhellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakbhellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakb</p>
+                    <p className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
             <div className="work__list">
@@ -27,7 +27,7 @@ const Work = () => {
                 </div>
             <div className="worklist__text">
                 <p>
-                hellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakbhellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakbhellosadasdandnsdnasdkdkjasbasjbdjdbsjkadasdjasndkasbdksbakb
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
             </div>
             </div>

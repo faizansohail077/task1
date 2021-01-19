@@ -1,21 +1,15 @@
 *{
     margin: 0;
 }
-.image {
+.image{
     background-color: #888888;
-    background-image: url('../img/bg.png') ;
+    background-image: url('../img/about.png') ;
     height: 737px;
     z-index: -1; 
     background-size: contain;
-
     width: 100%;
 }
-.navbar__text{
-    margin-left:350px ;
-    margin-top:237px ;
-    max-width: 250px;
-    color: white;
-}
+
 .navbar__text > p {
     margin: 10px;
 }

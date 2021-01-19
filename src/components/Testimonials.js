@@ -16,7 +16,7 @@ const Testimonials = () => {
                     <img src={team3} alt='' />
                     <div>
                         <h1>Client name</h1>
-                        <p>loreamadasdakdasdnaidhqwikadkdbksjdjksdaskbdaskdbasdbadbauair238rw</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div>

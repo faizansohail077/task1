@@ -1,9 +1,12 @@
 import React from 'react'
+import Icons from '../components/Icons'
+import Navbar2 from '../components/Navbar2'
 
 const Aboutus = () => {
     return (
         <div>
-            about
+            <Navbar2/>
+            <Icons/>
         </div>
     )
 }
