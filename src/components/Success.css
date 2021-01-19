@@ -1,0 +1,36 @@
+.success{
+    background-color: #E9E9E9;
+    margin-bottom: -70px;
+}
+.success__work {
+	display: flex;
+	height: 500px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+}
+.success_text {
+	flex-direction: 0.5;
+	max-width: 500px;
+}
+.success_text > span {
+    font-size:30px;
+     color: #803B74;
+}
+.success_text > h5 {
+    font-weight: bold;
+}
+.success_text > p {
+    opacity: 0.3px;
+    color: black;
+}
+.success__image {
+	flex-direction: 0.5;
+	margin-left: 40px;
+}
+.component{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 90px;
+}

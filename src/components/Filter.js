@@ -16,7 +16,7 @@ const Filter = () => {
                 <input type="checkbox" />
                 <p>Learning Path</p>
             </div>
-            <p className="filter__text">Type</p>
+            <p className="filter__text">Level</p>
             <div className="filter1">
                 <input type="checkbox" />
                 <p>Beginner</p>
@@ -29,8 +29,8 @@ const Filter = () => {
                 <input type="checkbox" />
                 <p>Advance</p>
             </div>
-            <p className="filter__text">Type</p>
-            <p className="filter__text">Type</p>
+            <p className="filter__text">Duration</p>
+            <p className="filter__text">Subject</p>
 
         </div>
     )
