@@ -1,0 +1,28 @@
+.alumini  {
+	display: flex;
+	margin-bottom: 20px;
+}
+.alumini2{
+    display: flex;
+	margin-bottom: 20px;
+}
+.alumini__image {
+	height: 300px;
+    width: 100%;
+    max-width: 540px;
+}
+.alumini__text {
+	margin: 20px;
+	max-width: 540px;
+	flex: none;
+	flex-direction: column;
+	word-wrap: break-word;
+}
+.alumini__text > span {
+	color: #803b74;
+	font-size: 2rem;
+	margin-bottom: 7px;
+}
+.alumini__text1 {
+	font-weight: bold;
+}
