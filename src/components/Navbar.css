@@ -12,12 +12,14 @@
 }
 .navbar__text{
     margin-left:350px ;
+    /* position: relative; */
+    
     margin-top:237px ;
     max-width: 250px;
     color: white;
 }
 .navbar__text > p {
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .btn{
     background-color: purple;

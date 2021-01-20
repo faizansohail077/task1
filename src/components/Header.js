@@ -2,36 +2,35 @@ import React from 'react'
 import './Header.css'
 import logo from '../img/logo.svg'
 import { Link } from "react-router-dom";
+import { Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <div className="header">
-            <nav>
-                <div><Link to='/'>
-                    <img src={logo} alt='' className="logo" />
-                    </Link>
-                </div>
+
             
-                    <ul className="nav-links">
-                        <li>
-                            <Link to="/"> Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about"> About</Link>
-                        </li>
-                        <li>
-                            <Link to="/course"> Courses</Link>
-                        </li>
-                        <li>
-                            <Link to="/resource">  Resources</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">  Contact Us</Link>
-                        </li>
-                    </ul>
-                    <button className='btn'>Enroll now</button>
-                
-            </nav>
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                <Navbar.Brand  className='mr-5 ml-5' href="/"><img src={logo} alt='' className="logo " /> </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className='mr-5'>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link eventKey={2} href="/about">
+                          About
+                    </Nav.Link>
+                    <Nav.Link eventKey={2} href="/course">
+                            Course
+                    </Nav.Link>
+                    <Nav.Link eventKey={2} href="/resource">
+                            Resource
+                    </Nav.Link>
+                    <Nav.Link eventKey={3} href="/contact">
+                            Contact us
+                    </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                <button className='btn'> Enroll now</button>
+            </Navbar>
         </div>
     )
 }
