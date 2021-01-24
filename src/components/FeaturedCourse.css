@@ -1,9 +1,25 @@
-.featuredCourse{
-    display: flex;
-    justify-content: space-evenly;
+.featuredCourse {
+	display: flex;
+	justify-content: center;
     margin-bottom: 10px;
+    width: 100%;
 }
-.image2{
-    height: 150px;
-    width: 150px;
+
+.image2 {
+	height: 250px;
+	width: 300px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.botton {
+	width: 180px;
+	color: white;
+    height: 30px;
+    margin-right: 40px;
+	background-color: purple;
+	border: none;
+}
+.featuredCourse__div{
+	align-items: center;
+	text-align: center;
 }

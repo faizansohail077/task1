@@ -1,31 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 *{
-    margin: 0;
+	margin: 0;
 }
 .image {
-    background-color: #888888;
-    background-image: url('../img/bg.png') ;
-    height: 737px;
-    z-index: -1; 
-    background-size: contain;
-
+	background-color: #888888;
+	background-image: url('../img/bg.png');
+	height: 737px;
+    z-index: -1;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+	background-size: contain;
     width: 100%;
+        
 }
-.navbar__text{
-    margin-left:350px ;
-    /* position: relative; */
+.navbar{
+    padding: 0px;
+}
+.navbar__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    justify-content: center;
+	text-align: left;
+	max-width: 533px;
+    color: white; 
+    font-family: 'Karla', sans-serif;
+    line-height: 1.2;
+}
+ 
+.navbar__text > h2 {
+    color:white;
     
-    margin-top:237px ;
-    max-width: 250px;
-    color: white;
 }
 .navbar__text > p {
     margin-bottom: 10px;
-}
-.btn{
-    background-color: purple;
-    padding: 15px;
-    border-radius:none;
-    width: 150px;
-    color: white;
+    ;
     
+
+}
+
+.button1 {
+	background-color: purple;
+	padding: 15px;
+    border: none;
+    height: 55px;
+	width: 150px;
+	margin-bottom: 30px;
+	color: white; 
 }

@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
 .work__pic {
 	display: flex;
-	justify-content: space-evenly;
+    justify-content: space-between;
+    max-width: 100%;
 }
-.pic {
+.work__heading{
+    margin-right: auto;
+    margin-left: 20px;
+    font-family: 'Karla', sans-serif; 
+}
+.pic1 > img {
     margin-top: 20px;
     width: 650px;
 	height: 730px;
@@ -15,32 +24,47 @@ h1 {
 }
 .text{
 	word-wrap: break-word;
-	max-width: 250px;
+    max-width: 450px;
+    text-align: start;
+    color: grey;
+    opacity: 0.8;
+    font-family: 'Karla', sans-serif; 
+
+    line-height :1.1
 }
 .work__list {
 	margin-left: 300px;
     margin-top: 30px;
-    max-width: 500px;
-    display: flex;
-	
-	
+    max-width: 500px;	
 }
 .work__list > ul  {
     color:  #a05699;
-    background: url('../img/Layer 66.png') no-repeat left top;
     margin-right: 10px;
     padding: 10px;
+    margin-left: -70px;
+    margin-right: 70px;
+    background: url('../img/Layer 66.png') no-repeat left top;
 }
 .list {
-    margin-left: 35px;
-    font-size: large;
+    margin-left: 25px;
+    
+    line-height: 0.1;
+    
 }
 .worklist__text{
     display: flex;
+    line-height: 1;
     
 }
 .Border{
     border-left: 5px solid orange;
     margin-right: 10px;
-    height: 105px;
+    height: 195px;
+}
+.list1{
+    display: flex;
+    margin-left: -90px;    
+    align-items: center;
+    /* justify-content: flex-start; */
+    
 }

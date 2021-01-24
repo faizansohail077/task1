@@ -1,13 +1,27 @@
 .icons{
     display: flex;
     justify-content: space-evenly;
+    
     align-items: center;
-    /* width: 100%; */
     height: 435px;
+    width: 100%;
+    
+    
 }
 
+.picture > img {
+    width: 70px;
+    align-items: center;
+    margin-left: 15px;
+}
 .text{
-    text-align: center;
-    margin-top:3px ;
+    
+    margin-top:7px ;
+}
+.text > p{
     color: #803B74;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+
 }

@@ -1,25 +1,59 @@
 .work2{
-    height: 200px;
+    min-height: 200px;
     background-color: #FEF3E5;
+    width: 100%;
     display: flex;
+    text-align: center;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
 }
 .work__input{
-    margin-left: 20px;
+    margin-left: 10px;
     border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    padding-top:5px ;
+
     
 }
 .work__input > input {
     border: none;
+    padding-left:20px ;
+    outline: none;
     height: 40px;
     background: none;
 }
-.work__list > p{
+.work__input > img{
+    padding-right: 10px;
+    height: 20px;
+}.work__list2{
+    display: flex;
+    text-align: center;
+}
+.work__list2 > p{
     justify-content: space-evenly;
     width: 100px;
 }
-.int{
+.int2::placeholder{
+    color: black;
+}
+.int2{
     border: 1px solid black;
+    outline: none;
     height: 40px;
     background: none;
+}
+.int{
+    border: 1px solid black;
+    outline: none;
+    height: 40px;
+    background: none;
+}
+.work_input2 > input {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 50px;
+    text-align: center;
+    
 }

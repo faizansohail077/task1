@@ -1,22 +1,33 @@
 .image1 {
+	height: 30px;
+	margin-top: -70px;
+}
+.image1 > img {
 	height: 100px;
-	width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
 }
 .mainfeatures {
 	display: flex;
+	width: 100%;
 	justify-content: space-around;
 	margin-top: -150px;
-	margin-left: 30px;
+	max-height: 250px;
 }
+
 .mainfeatures_work {
 	background-color: white;
-	padding: 10px;
+	align-items: center;
 	text-align: center;
 	word-wrap: break-word;
-	max-width: 250px;
-	max-height: 250px;
-	margin-bottom: 10px;
+
+	width: 250px;
+}
+.mainfeature-text {
+	padding: 30px;
+}
+.mainfeature-text > h1 {
+	color: black;
+}
+.mainfeature-text > p {
+	opacity: 0.3;
+	line-height: 1;
 }

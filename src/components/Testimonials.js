@@ -7,21 +7,20 @@ import test from '../img/test.png'
 const Testimonials = () => {
     return (
         <div>
-            <h1 style={{ textAlign: 'center' }}>Testimonials</h1>
+            <h1 style={{ textAlign: 'center',marginTop:'70px',marginBottom:'20px',fontSize:'50px' }}>Testimonials</h1>
             <div className='Testimonials'>
-                <div>
+                <div className='img1'>
                     <img src={test} alt='' />
                 </div>
-                <div className='team3'>
+                <div className='img2'>
                     <img src={team3} alt='' />
-                    <div>
-                        <h1>Client name</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div className="testi">
+                        <h1 style={{marginLeft:'10px',fontSize:'30px'}}>Client Name</h1>
+                        <p style={{marginLeft:'10px',color:'gray',opacity:0.7,lineHeight:1}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div>
+                <div className='img3'>
                     <img src={test} alt='' />
-
                 </div>
             </div>
 

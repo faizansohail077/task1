@@ -2,21 +2,28 @@ import React from 'react'
 import './Form.css'
 const Form = () => {
     return (
-        <div className='form form-group'>
+        <div className='form '>
             <div className='form__image'>
-                <h1 className="form__Text">Find the righ course for you</h1>
-                <form className='Form'>
-                    <div className='form__left'>
-                        <input className='form-control' placeholder='Enter Your FirstName' className='Form__input' type='text' />
-                        <input className='form-control' placeholder='Enter Your LastName' className='Form__input' type='text' />
+                <div className="form__Text">
+                </div>
+               
+                <div className='form1'>
+                    <div className='margin'>
+                    <h1 style={{color:'white',textAlign:'center',marginBottom:'20px'}} >Find the Right Course for you</h1>
+                    <form>
+                    <div className='form_input'>
+                        <input placeholder='Enter Your' type='text' />
+                        <input placeholder='Enter Your' type='text' />
                     </div>
-                    <div className='form__right'>
-                        <input className='form-control' placeholder='Enter Your Email' className='Form__input' type='text' />
-                        <input className='form-control' placeholder='Enter Your Address' className='Form__input' type='text' />
+                    <div className='form_input'>
+                        <input placeholder='Enter Your' type='text' />
+                        <input placeholder='Enter Your' type='text' />
                     </div>
-               </form>
+                        <button className='button '>View Course</button>
+                </form>
+                </div>
+                </div>
                 <div>
-                    <button className='btn1 '>Enroll now</button>
                 </div>
             </div>
         </div>
@@ -24,4 +31,13 @@ const Form = () => {
 }
 
 export default Form
-    
+ {/* <form className='Form'>
+                    <div className='form__left'>
+                    <input placeholder='Enter Your FirstName' className='Form__input' type='text' />
+                    <input placeholder='Enter Your LastName' className='Form__input' type='text' />
+                    </div>
+                    <div className='form__right'>
+                    <input placeholder='Enter Your Email' className='Form__input' type='text' />
+                    <input placeholder='Enter Your Address' className='Form__input' type='text' />
+                    </div>
+                </form> */}

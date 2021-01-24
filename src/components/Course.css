@@ -1,24 +1,37 @@
-.courses > img{
-    margin-top: 20px;
-    width: 200px;
-    height: 200px;
-}
-.courses{
+.main_div2{
     display: flex;
-    max-width: 200px;
-    flex-direction: column;
-}
-.courses > span{
-    font-size: 10px;
-}
-.courses > h5{
-   color: #803B74;
-}
-.courses > p {
-    opacity: 0.3;
+    flex-wrap: wrap;
 }
 .course {
     display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 20px;
-    justify-content: space-between;
+    margin-bottom: 20px;
 }
+.course > img {
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	margin-left: 5px;
+}
+
+.course > span {
+	font-size: 13px;
+	margin-top: 9px;
+    margin-left: 9px;
+    color: black;
+	opacity: 0.3;
+}
+.course > h5 {
+	color: #803b74;
+	margin-left: 9px;
+	margin-top: 3px;
+}
+.course > p {
+	opacity: 0.3;
+	margin-left: 9px;
+	margin-top: 3px;
+}
+

@@ -11,10 +11,10 @@ const Courses = () => {
             <NavbarCourse />
             <Work2 />
             <div style={{ display: 'flex' }}>
-                <div style={{ flex: 0.3 }}>
+                <div style={{ flex: 0.2 }}>
                     <Filter />
                 </div>
-                <div style={{ flex: 0.7 }}>
+                <div style={{ flex: 0.8 }}>
                     <Course />
                 </div>
             </div>

@@ -9,25 +9,38 @@ import icon5 from '../img/icon5.png'
 const Icons = () => {
     return (
         <div className="icons">
-            <div>
+            <div className='picture'>
                 <img src={icon1} alt='' />
-                <p className='text'>Learn English <br/> online </p>
+                <div className='text'>
+                    <p  >Learn English <br /> online </p>
+                </div>
             </div>
-            <div>
+            <div className='picture'>
                 <img src={icon2} alt='' />
-                <p className='text'>Small Learning <br/> groups </p>
+
+                <div className='text'>
+                    <p className='text'>Small Learning <br /> groups </p>
+                </div>
+
             </div>
-            <div>
+            <div className='picture'>
                 <img src={icon3} alt='' />
-                <p className='text'>Experienced <br/> Trainer </p>
+                <div className='text'>
+                    <p className='text'>Experienced <br /> Trainer </p>
+                </div>
+
             </div>
-            <div>
+            <div className='picture'>
                 <img src={icon4} alt='' />
-                <p className='text'>Rated Excellent <br/> 1000+ Reviews </p>
+                <div className='text'>
+                    <p className='text'>Rated Excellent <br /> 1000+ Reviews </p>
+                </div>
             </div>
-            <div>
-                <img src={icon5} alt='' />
-                <p className='text'>Over 100 <br/>Years Experience  </p>
+            <div className='picture'>
+                <img style={{width:'120px'}} src={icon5} alt='' />
+                <div className='text'>
+                    <p className='text'>Over 100 <br />Years Experience  </p>
+                </div>
             </div>
         </div>
     )

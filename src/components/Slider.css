@@ -1,0 +1,40 @@
+.slider {
+	min-height: 400px;
+	margin-top: 70px;	
+}
+.slider__data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.name {
+	width: 100%;
+	font-family: 'Karla', sans-serif;
+}
+
+.slider__Pic > img {
+	height: 300px;
+	
+}
+.success__work > img {
+	/* margin-right : 30px; */
+	height: 70%;
+}
+.slider__div {
+	display: flex;
+	justify-content: center;
+	
+}
+.slider__div > button > img {
+	height: 20px;
+}
+.slider__div > button {
+	background-color: orange;
+    border: none;
+    height: 50px;
+    width: 30px;
+    
+
+}

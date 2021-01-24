@@ -9,27 +9,42 @@ const Work = () => {
                 <div className="pic1">
                     <img className="pic" src={layer} alt='' />
                 </div>
-                <div>
+                <div className="work__heading">
                     <h1>How it works</h1>
-                    <p className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
-            <div className="work__list">
-                <ul>
-                    <li className='list'>Excellent Reviews</li>
-                    <li className='list'>Over 100 years of experiance</li>
-                    <li className='list'>clear result</li>
-                    <li className='list'>Memoriable experience </li>
+            <div className='list1'>
+                <div className="work__list">
+
+                    <ul>
+                        <li className='list'>Excellent Reviews</li>
+                    </ul>
+                    <ul>
+                        <li className='list'>Over 100 years of experiance</li>
+                    </ul>
+                    <ul>
+                        <li className='list'>clear result</li>
+                    </ul>
+                    <ul>
+                        <li className='list'>Memoriable experience </li>
+                    </ul>
+                    </div>
                     
-                </ul>
-                <div className='Border'>
-                    
-                </div>
-            <div className="worklist__text">
-                <p className="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <div className='Border'>
+
+                    </div>
+                    <div className="worklist__text">
+                        <p className="text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
-            </div>
+                    
+                </div>
             </div>
         </div>
     )

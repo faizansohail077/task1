@@ -40,19 +40,19 @@ const Help = () => {
             <div className="contact">
                 <div className="contact__img">
                     <div className="contant__text">
-                        <h2>We are Always here to help you</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h2>Get In Touch With Us</h2>
+                        <p style={{opacity:0.3}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <form>
                         <div className='form__input'>
                             <input placeholder="Enter" type="text" />
-                            <input placeholder="Enter" type="text" />
-                            <input placeholder="Enter" type="text" />
+                            <input placeholder="Enter" type="text" style={{backgroundColor:'purple'}} />
+                            <input placeholder="Enter" type="text"  />
                         </div>
 
                         <textarea className='input__field' placeholder="Enter" type="text" />
-                        <button className='btn1'>Submit</button>
                     </form>
+                        <button className='botton1'>Submit</button>
                 </div>
             </div>
         </div>
