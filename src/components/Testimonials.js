@@ -2,6 +2,7 @@ import React from 'react'
 import './Testimonials.css'
 import team3 from '../img/team3.png'
 import test from '../img/test.png'
+import Details from '../img/p3.png'
 
 
 const Testimonials = () => {
@@ -13,7 +14,7 @@ const Testimonials = () => {
                     <img src={test} alt='' />
                 </div>
                 <div className='img2'>
-                    <img src={team3} alt='' />
+                    <img src={Details} alt='' />
                     <div className="testi">
                         <h1 style={{marginLeft:'10px',fontSize:'30px'}}>Client Name</h1>
                         <p style={{marginLeft:'10px',color:'gray',opacity:0.7,lineHeight:1}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>

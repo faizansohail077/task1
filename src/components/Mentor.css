@@ -1,20 +1,27 @@
 .mentors {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+
+	justify-content: space-evenly;
 }
 .mentors__heading {
 	text-align: center;
 	margin-bottom: 10px;
 }
-.mentors__img {
+.mentors__img  {
 	width: 200px;
 	margin-right: 30px;
 	margin-top: 30px;
+	
 }
 .mentor{
     display: flex;
     flex-direction: column;
+}
+.mentor1{
+    display: flex;
+	flex-direction: column;
+	position: relative;
 }
 .mentor > img {
     border: 1px dotted black;
@@ -25,6 +32,22 @@
     
 
 }
+.border1 { 
+	width: 220px;
+	height: 220px;
+	
+	
+	border: 1px dashed gray;
+}
+.border_img{
+	position: absolute;
+	left:10px;
+	top:-20px
+}
+.border_img > img{
+	width: 220px;
+	height: 220px;
+}
 .btn6 {
 	background-color: purple !important;
 	padding: 15px;
@@ -32,7 +55,10 @@
 	height: 45px !important;
 	border: none !important;
     width: 150px;
-    border: none;
+	border: none;
+	position: absolute;
+	bottom: -1px;
+	z-index: 1;
     outline: none;
     margin-top: -45px !important;
 	color: white;

@@ -11,18 +11,34 @@ const Mentors = () => {
         <div >
             <h1 className='mentors__heading'>Mentors & Instructors</h1>
             <div className="mentors">
-                <div className="mentor" >
-                    <img className='mentors__img' src={team1} alt='' />
+                <div className="mentor1" >
+                    <div className='border1'>
+                        <p></p>
+                    </div>
+                    <div className="border_img">
+                        <img className='mentors__img' src={team1} alt='' />
+                    </div>
                     <button className="btn6">Team Members</button>
                 </div>
-                <div className="mentor" >
-                    <img className='mentors__img' src={team2} alt='' />
+                <div className="mentor1" >
+                    <div className='border1'>
+                        <p></p>
+                    </div>
+                    <div className="border_img">
+                        <img className='mentors__img' src={team2} alt='' />
+                    </div>
                     <button className="btn6">Team Members</button>
                 </div>
-                <div className="mentor" >
-                    <img className='mentors__img' src={team3} alt='' />
+                <div className="mentor1" >
+                    <div className='border1'>
+                        <p></p>
+                    </div>
+                    <div className="border_img">
+                        <img className='mentors__img' src={team3} alt='' />
+                    </div>
                     <button className="btn6">Team Members</button>
                 </div>
+
             </div>
 
         </div>
