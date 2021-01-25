@@ -3,6 +3,7 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .logos > img {
     height: 70px;

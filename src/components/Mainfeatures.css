@@ -7,10 +7,11 @@
 }
 .mainfeatures {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-around;
 	margin-top: -150px;
-	max-height: 250px;
+	min-height: 250px;
 }
 
 .mainfeatures_work {

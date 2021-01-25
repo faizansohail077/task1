@@ -21,7 +21,6 @@ const Icons = () => {
                 <div className='text'>
                     <p className='text'>Small Learning <br /> groups </p>
                 </div>
-
             </div>
             <div className='picture'>
                 <img src={icon3} alt='' />
@@ -37,7 +36,7 @@ const Icons = () => {
                 </div>
             </div>
             <div className='picture'>
-                <img style={{width:'120px'}} src={icon5} alt='' />
+                <img  src={icon5} alt='' />
                 <div className='text'>
                     <p className='text'>Over 100 <br />Years Experience  </p>
                 </div>
