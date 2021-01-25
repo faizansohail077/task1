@@ -13,7 +13,7 @@ const Navbar = () => {
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page.it is a long established fact that a reader will be distracted by the readable content of a page.it is a long established fact that a reader will be distracted by the readable content of a page</p>
                     </div>
                     <div>
-                        <button className='button1'> Contact us</button>
+                        <button className='button1'> CONTACT US</button>
                     </div>
                 </div>
             </div>

@@ -44,6 +44,8 @@ h1 {
     margin-left: -70px;
     margin-right: 70px;
     background: url('../img/Layer 66.png') no-repeat left top;
+    
+    list-style-type: none;
 }
 .list {
     margin-left: 25px;

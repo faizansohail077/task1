@@ -1,27 +1,31 @@
 import React from 'react'
 import './Mentor.css'
-import team1 from '../img/team1.png'
-import team2 from '../img/team2.png'
-import team3 from '../img/team3.png'
+import team1 from '../img/p2.png'
+import team2 from '../img/p1.png'
+import team3 from '../img/p3.png'
 
 
 
 const Mentors = () => {
     return (
         <div >
-        <h1 className='mentors__heading'>Mentors & Instructors</h1>
-        <div className="mentors">
-        <div >
-            <img className='mentors__img' src={team1} alt=''/>
+            <h1 className='mentors__heading'>Mentors & Instructors</h1>
+            <div className="mentors">
+                <div className="mentor" >
+                    <img className='mentors__img' src={team1} alt='' />
+                    <button className="btn6">Team Members</button>
+                </div>
+                <div className="mentor" >
+                    <img className='mentors__img' src={team2} alt='' />
+                    <button className="btn6">Team Members</button>
+                </div>
+                <div className="mentor" >
+                    <img className='mentors__img' src={team3} alt='' />
+                    <button className="btn6">Team Members</button>
+                </div>
+            </div>
+
         </div>
-        <div >
-            <img className='mentors__img' src={team2} alt=''/>
-        </div>
-        <div >
-            <img className='mentors__img' src={team2} alt=''/>
-        </div>
-        </div>
-    </div>
     )
 }
 

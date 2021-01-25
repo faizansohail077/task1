@@ -8,12 +8,12 @@ const Header = () => {
     return (
         <div className="header">
             <nav>
-                <div>
+                <div className="logo">
                     <Link to='/'>
-                        <img src={logo} alt='' className="logo" />
+                        <img className="logo" src={logo} alt=''  />
                     </Link>
                 </div>
-
+                
                 <ul className="nav-links">
                     <li>
                         <Link style={{ textDecoration: 'none',color:'black' }} to="/"> Home</Link>
@@ -40,30 +40,3 @@ const Header = () => {
 }
 
 export default Header
-
-
-
-{/* <div className="header">
-<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-    <Navbar.Brand  className='mr-5 ml-5' href="/"><img src={logo} alt='' className="logo " /> </Navbar.Brand>
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className='mr-5'>
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link eventKey={2} href="/about">
-              About
-        </Nav.Link>
-        <Nav.Link eventKey={2} href="/course">
-                Course
-        </Nav.Link>
-        <Nav.Link eventKey={2} href="/resource">
-                Resource
-        </Nav.Link>
-        <Nav.Link eventKey={3} href="/contact">
-                Contact us
-        </Nav.Link>
-        </Nav>
-    </Navbar.Collapse>
-    <button className='btn5'> ENROLL NOW</button>
-</Navbar>
-</div> */}
