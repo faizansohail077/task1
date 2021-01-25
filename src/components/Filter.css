@@ -5,6 +5,11 @@
 	margin-left: 20px;
 	margin-top: 3px;
 }
+.toggler{
+	display: flex;
+	/* background-color: gray; */
+	justify-content: space-between;
+}
 .filter__text {
 	padding: 7px;
 	border-bottom: 1px solid black;

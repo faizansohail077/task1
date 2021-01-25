@@ -5,6 +5,10 @@
     justify-content: center;
 	
 }
+.course > img {
+	width: 200px;
+	height: auto;
+}
 .backColor {
 	background-color: #e9e9e9;
 }
